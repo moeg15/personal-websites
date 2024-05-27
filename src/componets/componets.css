@@ -1,0 +1,173 @@
+@import url('https://fonts.googleapis.com/css2?family=Alfa+Slab+One&display=swap');
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.waviy {
+  position: relative;
+  -webkit-box-reflect: below -20px linear-gradient(transparent, rgba(0,0,0,.2));
+  font-size: 5vw; /* Use vw for responsive font size */
+}
+
+@media (max-width: 768px) {
+  .waviy {
+    font-size: 6vw; /* Adjust font size for smaller screens */
+  }
+}
+
+@media (max-width: 480px) {
+  .waviy {
+    font-size: 7vw; /* Further adjust font size for very small screens */
+  }
+}
+
+.waviy span {
+  font-family: 'Alfa Slab One', cursive;
+  position: relative;
+  display: inline-block;
+  color: red;
+  text-transform: uppercase;
+  animation: waviy 1.4s infinite;
+  animation-delay: calc(.1s * var(--i));
+}
+
+.waviy span.black {
+  color: black;
+}
+
+@keyframes waviy {
+  0%, 40%, 100% {
+    transform: translateY(0)
+  }
+  20% {
+    transform: translateY(-20px)
+  }
+}
+
+.container {
+  background-color: #FFFFFF;
+  padding: 10px;
+}
+
+.img {
+  max-height: 30vh;
+  border-radius: 50%;
+  margin-left: 15%;
+  margin-top: 5%;
+}
+
+.greybox {
+  background-color: #222831;
+  height: 20vh;
+  display: flex;
+}
+
+.nametitle {
+  color: white;
+  align-content: center;
+  margin-left: 25%;
+  font-size: 5vw;
+}
+
+.dropDown1 {
+  transition: 1s;
+  display: flex;
+  flex-direction: column;
+  color: white;
+  align-items: center;
+  background-color: #222831;
+  width: 50%;
+  margin-left: 35%;
+  height: 50vh;
+}
+
+.dropDown2 {
+  transition: 1s;
+  display: flex;
+  flex-direction: column;
+  color: white;
+  align-items: center;
+  background-color: #222831;
+  width: 50%;
+  margin-left: 35%;
+  height: 0vh;
+}
+
+.centerPage {
+  display: flex;
+  justify-content: center; /* horizontally center */
+  align-items: center; /* vertically center */
+  height: 100%; /* set height to 100% to take full height of its container */
+  color: black;
+  margin: 20%;
+}
+
+.containerforabout {
+  padding: 10px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.aboutimg {
+  width: 50%;
+}
+
+.left-side {
+  width: 35%;
+  flex-grow: 1;
+}
+
+.right-side {
+  width: 50%;
+  flex-grow: 3;
+  text-align: center;
+}
+
+.animation {
+  font-size: 25px;
+}
+
+.aboutme {
+  font-size: 45px;
+}
+
+.title {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 5% auto;
+}
+
+.propic {
+  width: 70%;
+}
+
+.row {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.col {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  width: 50%;
+}
+
+.test123 {
+  /* The image used */
+  background-image: url("https://thumbs.dreamstime.com/b/code-screen-software-source-programming-computer-developer-working-program-codes-office-photo-technology-background-image-149857653.jpg");
+  min-height: 500px; 
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+video {
+  pointer-events: none;
+}

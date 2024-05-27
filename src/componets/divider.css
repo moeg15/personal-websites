@@ -1,0 +1,99 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+:root {
+  /* Height of the cut */
+  --cut: 100px;
+}
+
+body {
+  min-height: 100vh;
+  font-family: "Trebuchet MS", sans-serif;
+}
+
+section {
+  background-color: #404040;
+  min-height: 90vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+
+section h1 {
+  font-size: 2.5rem;
+  color: #404040;
+  background-color: whitesmoke;
+  padding: 0.5rem 1rem;
+  border-radius: 1rem;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.tilt {
+  background: linear-gradient(to right, #fad0c4, #ffd1ff);
+  /* Clip the bottom part of this section */
+  clip-path: polygon(0 0, 100% 0, 100% 100%, 0 calc(100% - var(--cut)));
+  z-index: 3;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.left-half,
+.right-half {
+  position: absolute;
+  width: 50%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 100%;
+  
+}
+
+.left-half {
+  left: 0;
+}
+
+.right-half {
+  right: 0;
+}
+
+.left-half img,
+.right-half img {
+  max-width: 100%; /* Ensure the image is responsive */
+}
+
+.center-content {
+  z-index: 1;
+}
+.javascript{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: 20px;
+}
+.test1234{
+  height: 10em;
+}
+.react{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: 20px;
+}
+.html{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: 20px;
+}
+.css{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: 20px;
+}
