@@ -1,15 +1,15 @@
 import './componets.css'
 import AOS from 'aos'
 import 'aos/dist/aos.css'
-import { useEffect } from 'react'
-export default function About(){
+import { useEffect, useRef } from 'react'
+export default function About({ useRef}){
  
   useEffect(()=>{
 AOS.init({duration: 2000})
   },[])
   return(
     <>
-        <div className="containerforabout">
+        <div ref={useRef} className="containerforabout">
           <div className="left-side">
 
            <img className='aboutimg' src="../../selfie.jpg" alt="" />

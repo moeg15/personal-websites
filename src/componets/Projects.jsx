@@ -1,8 +1,8 @@
 import './componets.css'
-export default function Project(){
+export default function Project({useRef}){
   return(
       <>
-      <div className='container'>
+      <div ref={useRef} className='container'>
         <div className='title'>
       <h1>Personal Projects</h1>
       </div>

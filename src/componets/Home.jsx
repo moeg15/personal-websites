@@ -21,14 +21,13 @@ export default function Home(props) {
             onClick={changeDropDown} 
           />
           <div className={dropDownState}>
-            <ul>
-            <li onClick={() => props.scrolltoSection( props.about)}>about</li>
+            <button></button>
+          
 
-              <li>test</li>
-              <li>test</li>
-              <li>test</li>
-              <li>test</li>
-            </ul>
+          <button onClick={() => props.scrollToSection(props.about)} className='aboutbtn'>about</button>
+          <button onClick={() => props.scrollToSection(props.project)} className='aboutbtn'>projects</button>
+             
+           
             
           </div>
         </div>

@@ -171,3 +171,14 @@
 video {
   pointer-events: none;
 }
+
+.aboutbtn{
+ background-color: transparent;
+ color:white;
+ padding: 1px 10px;
+margin-bottom: 75px;
+margin-top: 75px;
+
+ 
+}
+

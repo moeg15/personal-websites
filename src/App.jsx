@@ -9,15 +9,16 @@ function App() {
 const about = useRef(null);
 const project = useRef(null);
 
-const scrolltoSection = (elementRef) => {
+const scrollToSection = (elementRef) => {
   window.scrollTo({
-    top:elementRef.current.offsetTop,
+    top: elementRef.current.offsetTop,
     behavior: 'smooth'
   })
 }
   return (
     <>
-      <Home scrolltoSection={scrolltoSection} about={about} project={project}/>
+   
+      <Home scrollToSection={scrollToSection} about={about} project={project}/>
       <ParaScroll/>
       <About useRef={about}/>
       <Divider/>
