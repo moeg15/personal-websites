@@ -2,7 +2,7 @@ import './componets.css'
 export default function Project({useRef}){
   return(
       <>
-      <div ref={useRef} className='container'>
+      <div ref={useRef} className='container2'>
         <div className='title'>
       <h1>Personal Projects</h1>
       </div>

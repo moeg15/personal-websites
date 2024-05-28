@@ -49,6 +49,7 @@
 .container {
   background-color: #FFFFFF;
   padding: 10px;
+
 }
 
 .img {
@@ -144,6 +145,7 @@
 
 .propic {
   width: 70%;
+ 
 }
 
 .row {
@@ -180,5 +182,10 @@ margin-bottom: 75px;
 margin-top: 75px;
 
  
+}
+.container2 {
+  background-color: #FFFFFF;
+  padding: 10px;
+  margin-bottom: 15%;
 }
 
