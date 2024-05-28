@@ -19,7 +19,7 @@ AOS.init({duration: 2000})
         <div className="right-side">
           <div className='textaboutme'>
           <h1 className='aboutme'>About Me</h1>
-           <p className='animation'  data-aos-delay="300" data-aos="fade-up">My name is Moses Greenstein. I am front end web developer with a focus in javascript, html, and css. I have been designing websites since the fifth grade. The ability to create has always filled me with great pride. This pride was only elevated when showing something as unique and malleable as a website.   </p>
+           <p className='animation'  data-aos-delay="300" data-aos="fade-up">My name is Moses Greenstein. I am a front end web developer with a focus in javascript, html, and css. I have been designing websites since the fifth grade. The ability to create has always filled me with great pride. This pride was only elevated when showing something as unique and malleable as a website.   </p>
            <br />
            <br />
            <br />
