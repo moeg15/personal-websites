@@ -96,6 +96,16 @@
   height: 0vh;
 }
 
+.dropDown1 button{
+  transition: 1s;
+   
+}
+
+.dropDown2 button {
+  transition: 1s;
+ display: none;
+}
+
 .centerPage {
   display: flex;
   justify-content: center; /* horizontally center */
