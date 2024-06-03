@@ -26,6 +26,7 @@ export default function Home(props) {
 
           <button onClick={() => props.scrollToSection(props.about)} className='aboutbtn'>about</button>
           <button onClick={() => props.scrollToSection(props.project)} className='aboutbtn'>projects</button>
+          <button onClick={() => props.scrollToSection(props.contact)} className='aboutbtn'>contact</button>
              
            
             

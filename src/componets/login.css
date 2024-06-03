@@ -1,0 +1,47 @@
+.loginForm{
+ padding-top: 10%;
+  height: 75vh;
+  background-color: burlywood;
+}
+.nameandemail{
+  display: flex;
+  justify-content: center;
+ 
+  
+}
+.message{
+  display: flex;
+  justify-content: center;
+  
+ 
+}
+textarea{
+  width: 1000px;
+  height: 300px;
+  resize: none;
+  margin-bottom: 10px;
+}
+.submit{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+.button{
+  width: 200px;
+  height: 25px;
+}
+
+.Message-header{
+  display: flex;
+  justify-content:center;
+  margin-top: 5%;
+  width: 50%;
+  
+}
+
+.text1{
+  width: 250px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
