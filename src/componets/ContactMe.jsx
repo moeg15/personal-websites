@@ -1,5 +1,6 @@
 import React, { useRef } from 'react';
 import emailjs from '@emailjs/browser';
+import Alert from 'react-bootstrap/Alert';
 import './login.css'
 export default function ContactMe(){
   const form = useRef();
@@ -14,6 +15,8 @@ export default function ContactMe(){
       .then(
         () => {
           console.log('SUCCESS!');
+         
+          alert("your email has been submited and will be responed to as soon as possible!")
         },
         (error) => {
           console.log('FAILED...', error.text);
